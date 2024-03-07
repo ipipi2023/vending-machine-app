@@ -1,0 +1,44 @@
+{
+	"tests": [
+	{
+		"name": "Compilation Check",
+		"setup": "mkdir build && cd build && cmake ..",
+		"run": "cd build && make",
+		"comparison": "include",
+		"timeout": 2,
+		"points": 1
+	},
+	{
+		"name": "Scenario 1",
+		"setup": "",
+		"run": "./build/test1",
+		"comparison": "include",
+		"timeout": 1,
+		"points": 2
+	},
+	{
+		"name": "Scenario 2",
+		"setup": "",
+		"run": "./build/test2",
+		"comparison": "include",
+		"timeout": 1,
+		"points": 2
+	},
+	{
+		"name": "Scenario 3",
+		"setup": "",
+		"run": "./build/test3",
+		"comparison": "include",
+		"timeout": 1,
+		"points": 2
+	},
+	{
+		"name": "Scenario 4",
+		"setup": "",
+		"run": "./build/test4",
+		"comparison": "include",
+		"timeout": 1,
+		"points": 4
+	}
+	]
+}
